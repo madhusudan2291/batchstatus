@@ -1,6 +1,6 @@
 <?php
 require_once 'config.php';
-
+ 
 session_start();
 
 $token_url = LOGIN_URI . "/services/oauth2/token";

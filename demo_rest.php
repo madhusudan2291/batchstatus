@@ -15,7 +15,7 @@ function show_accounts($instance_url, $access_token) {
     curl_close($curl);
 
     $response = json_decode($json_response, true);
-
+ 
     $total_size = $response['totalSize'];
 
     echo "$total_size record(s) returned<br/><br/>";
